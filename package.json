@@ -1,5 +1,5 @@
 {
-  "name": "preact-compat-react-ace-issue",
+  "name": "react-ace-preact-compat-issue",
   "version": "1.0.0",
   "description": "Bug with using react-ace together with preact-compat",
   "main": "src/app.js",
