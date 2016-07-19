@@ -1,0 +1,29 @@
+{
+  "name": "preact-compat-react-ace-issue",
+  "version": "1.0.0",
+  "description": "Bug with using react-ace together with preact-compat",
+  "main": "src/app.js",
+  "dependencies": {
+    "brace": "^0.8.0",
+    "preact": "^5.4.0",
+    "preact-compat": "^2.0.0",
+    "react": "^15.2.1",
+    "react-ace": "^3.5.0",
+    "react-ace-wrapper": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "webpack": "^1.13.1"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config --colors --watch",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "author": "Dmitri Voronianski <dmitri.voronianski@gmail.com>",
+  "license": "ISC"
+}
